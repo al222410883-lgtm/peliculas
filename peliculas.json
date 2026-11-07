@@ -1,0 +1,93 @@
+
+[
+    {
+        "id": 1,
+        "titulo": "Toy Story",
+        "genero": "Animación",
+        "edadMinima": 0,
+        "clasificacion": "AA",
+        "descripcion": "Un grupo de juguetes vive grandes aventuras cuando su dueño no está.",
+        "imagen": "https://image.tmdb.org/t/p/w500/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg"
+    },
+    {
+        "id": 2,
+        "titulo": "Coco",
+        "genero": "Animación",
+        "edadMinima": 0,
+        "clasificacion": "A",
+        "descripcion": "Miguel descubre el significado de la familia y la música.",
+        "imagen": "https://image.tmdb.org/t/p/w500/gGEsBPAijhVUFoiNpgZXqRVWJt2.jpg"
+    },
+    {
+        "id": 3,
+        "titulo": "Harry Potter y la piedra filosofal",
+        "genero": "Fantasía",
+        "edadMinima": 0,
+        "clasificacion": "A",
+        "descripcion": "Un joven descubre que pertenece al mundo de la magia.",
+        "imagen": "https://image.tmdb.org/t/p/w500/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg"
+    },
+    {
+        "id": 4,
+        "titulo": "Jumanji",
+        "genero": "Aventura",
+        "edadMinima": 12,
+        "clasificacion": "B",
+        "descripcion": "Un juego misterioso convierte una aventura en algo inesperado.",
+        "imagen": "https://image.tmdb.org/t/p/w500/pT8C4a3l9z0Qf4F3v4f2q4F4w6m.jpg"
+    },
+    {
+        "id": 5,
+        "titulo": "Spider-Man: No Way Home",
+        "genero": "Acción",
+        "edadMinima": 12,
+        "clasificacion": "B",
+        "descripcion": "Spider-Man enfrenta nuevos desafíos que cambian su mundo.",
+        "imagen": "https://image.tmdb.org/t/p/w500/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg"
+    },
+    {
+        "id": 6,
+        "titulo": "Interestelar",
+        "genero": "Ciencia ficción",
+        "edadMinima": 12,
+        "clasificacion": "B",
+        "descripcion": "Un grupo de exploradores viaja por el espacio buscando un futuro para la humanidad.",
+        "imagen": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg"
+    },
+    {
+        "id": 7,
+        "titulo": "Enola Holmes",
+        "genero": "Misterio",
+        "edadMinima": 12,
+        "clasificacion": "B",
+        "descripcion": "Una joven detective busca resolver la desaparición de su madre.",
+        "imagen": "https://image.tmdb.org/t/p/w500/riYInlsq2kf1AWoGm80JQW5dLKp.jpg"
+    },
+    {
+        "id": 8,
+        "titulo": "El conjuro",
+        "genero": "Terror",
+        "edadMinima": 15,
+        "clasificacion": "B15",
+        "descripcion": "Una familia enfrenta sucesos extraños en su nueva casa.",
+        "imagen": "https://image.tmdb.org/t/p/w500/wVYREutTvI2tmxr6ujrHT704wGF.jpg"
+    },
+    {
+        "id": 9,
+        "titulo": "La La Land",
+        "genero": "Romance",
+        "edadMinima": 12,
+        "clasificacion": "B",
+        "descripcion": "Dos jóvenes persiguen sus sueños mientras descubren el amor.",
+        "imagen": "https://image.tmdb.org/t/p/w500/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg"
+    },
+    {
+        "id": 10,
+        "titulo": "El viaje de Chihiro",
+        "genero": "Fantasía",
+        "edadMinima": 0,
+        "clasificacion": "A",
+        "descripcion": "Una niña entra en un mundo mágico lleno de criaturas sorprendentes.",
+        "imagen": "https://image.tmdb.org/t/p/w500/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg"
+    }
+]

@@ -1,0 +1,241 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #1b102b, #321044, #4b145e);
+    color: white;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 55px 20px;
+    background: linear-gradient(120deg, #c026d3, #f8007c, #14149f);
+    border-radius: 0 0 45px 45px;
+    box-shadow: 0 8px 30px rgba(236, 72, 153, 0.35);
+}
+
+header h1 {
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+    text-shadow: 2px 3px 8px rgba(0,0,0,0.3);
+}
+
+header p {
+    font-size: 17px;
+    color: #fff0fa;
+}
+
+.subtitulo {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+
+main {
+    width: 90%;
+    max-width: 1150px;
+    margin: 45px auto;
+}
+
+
+.buscador {
+    background: rgba(255, 255, 255, 0.09);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    padding: 35px;
+    border-radius: 25px;
+    max-width: 550px;
+    margin: auto;
+    box-shadow: 0 12px 35px rgba(0,0,0,0.3);
+}
+
+.buscador h2 {
+    text-align: center;
+    color: #f9a8d4;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+
+label {
+    display: block;
+    margin: 18px 0 9px;
+    font-weight: 600;
+    color: #f5d0fe;
+}
+
+
+input,
+select {
+    width: 100%;
+    padding: 15px;
+    border-radius: 12px;
+    border: 2px solid transparent;
+    background: #fff0fa;
+    color: #581c60;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus,
+select:focus {
+    border-color: #ec4899;
+    box-shadow: 0 0 12px rgba(236,72,153,0.5);
+}
+
+
+button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 14px;
+    background: linear-gradient(90deg, #ec4899, #c026d3, #9333ea);
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 5px 18px rgba(236,72,153,0.3);
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 9px 25px rgba(236,72,153,0.5);
+    filter: brightness(1.12);
+}
+
+
+.resultados {
+    margin-top: 55px;
+}
+
+.resultados h2 {
+    text-align: center;
+    color: #f9a8d4;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+
+.catalogo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 28px;
+}
+
+
+.tarjeta {
+    background: linear-gradient(160deg, #38134b, #24102f);
+    border: 1px solid rgba(236,72,153,0.3);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 22px rgba(0,0,0,0.3);
+    transition: 0.35s;
+}
+
+.tarjeta:hover {
+    transform: translateY(-9px) scale(1.02);
+    border-color: #ec4899;
+    box-shadow: 0 12px 30px rgba(236,72,153,0.3);
+}
+
+
+.tarjeta img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    display: block;
+    transition: 0.4s;
+}
+
+.tarjeta:hover img {
+    transform: scale(1.04);
+}
+
+
+.contenido {
+    padding: 20px;
+}
+
+.contenido h3 {
+    color: #f9a8d4;
+    font-size: 19px;
+    margin-bottom: 12px;
+}
+
+.contenido p {
+    color: #f3e8ff;
+    font-size: 14px;
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+
+.clasificacion {
+    display: inline-block;
+    background: linear-gradient(90deg, #ec4899, #a855f7);
+    color: white;
+    padding: 8px 13px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+
+.mensaje {
+    text-align: center;
+    padding: 25px;
+    background: rgba(236,72,153,0.13);
+    border: 1px solid #c026d3;
+    border-radius: 15px;
+    color: #fce7f3;
+    grid-column: 1 / -1;
+}
+
+
+footer {
+    text-align: center;
+    padding: 30px 15px;
+    margin-top: 60px;
+    background: #1b102b;
+    color: #e9a8d4;
+    border-top: 2px solid #a21caf;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 40px 15px;
+        border-radius: 0 0 30px 30px;
+    }
+
+    header h1 {
+        font-size: 34px;
+    }
+
+    .buscador {
+        padding: 22px;
+    }
+
+    .resultados h2 {
+        font-size: 24px;
+    }
+
+    .catalogo {
+        grid-template-columns: 1fr;
+    }
+}

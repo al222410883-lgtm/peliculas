@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Recomendador de películas</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Alberto Uriel Alejandrez Rodriguez - peliculas</h1>
+        <p>Encuentra tu próxima película favorita</p>
+    </header>
+
+    <main>
+
+        <section class="buscador">
+
+            <h2>Personaliza tus recomendaciones</h2>
+
+            <label for="edad">¿Cuántos años tienes?</label>
+
+            <input
+                type="number"
+                id="edad"
+                min="1"
+                max="120"
+                placeholder="Escribe tu edad"
+            >
+
+            <label for="genero">Selecciona el género:</label>
+
+            <select id="genero">
+                <option value="">Todos los géneros</option>
+                <option value="Acción">Acción</option>
+                <option value="Aventura">Aventura</option>
+                <option value="Animación">Animación</option>
+                <option value="Fantasía">Fantasía</option>
+                <option value="Ciencia ficción">Ciencia ficción</option>
+                <option value="Terror">Terror</option>
+                <option value="Romance">Romance</option>
+                <option value="Misterio">Misterio</option>
+            </select>
+
+            <button onclick="recomendarPeliculas()">
+                 Buscar películas
+            </button>
+
+        </section>
+
+        <section class="resultados">
+
+            <h2>Películas recomendadas</h2>
+
+            <div id="peliculas" class="catalogo">
+
+                <p class="mensaje">
+                    Selecciona tu edad y género
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Encuentra historias</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
